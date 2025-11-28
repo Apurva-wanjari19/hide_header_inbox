@@ -10,7 +10,7 @@ the inbox icon with a single checkbox. When enabled, the module dynamically hide
 messaging icon using a frontend script without modifying any core Odoo files.    """,
 
     'author': "Apurva Wanjari",
-    'category': 'Uncategorized',
+    'license': 'LGPL-3',
     'version': '0.17',
 
     'depends': ['base', 'mail'],
@@ -25,5 +25,7 @@ messaging icon using a frontend script without modifying any core Odoo files.   
             'hide_message_inbox/static/src/js/message_menu_hide.js',
         ]
     },
+    'images': ['static/description/banner.jpg'],
+    'installable': True,
 }
 
