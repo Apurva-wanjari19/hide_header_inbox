@@ -25,7 +25,7 @@ messaging icon using a frontend script without modifying any core Odoo files.   
             'hide_message_inbox/static/src/js/message_menu_hide.js',
         ]
     },
-    'images': ['static/description/banner.jpg'],
+    'images': ['static/description/banner.png'],
     'installable': True,
 }
 
